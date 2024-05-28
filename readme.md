@@ -1,6 +1,6 @@
 # Spotify-duo-split
 I created this to help my wife and I split an old shared spotify 
-account into 2 separate account using spotify duo. It does the following:
+account into 2 separate account using Spotify Duo. It does the following:
 1. Creates files with all playlists, albums, and artists on the old account.
 2. Allows you to assign which account they should be on after the split.
 3. Adds all the designated music to the new account.
@@ -34,3 +34,7 @@ information to.
 8. Log out of the new account in the browser.
 9. Execute `remove_from_old.py`. Again, it will prompt you to log into an account. Log back into the old account.
 
+## Note
+I could not find away to do in this a single pass as it required logging into and out of Spotify accounts manually 
+in the browser. Due to needing to alternate between accounts, I split it into 3 separate files for each major step 
+assigned to an account.
